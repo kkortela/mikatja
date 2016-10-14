@@ -1,0 +1,220 @@
+body {
+    font-family: 'Asap';
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 35px;
+    text-align: center;
+}
+
+h1 {
+    font-family : 'StylishCalligraphyDemo', cursive;
+    font-weight: 100;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "StylishCalligraphyDemo", cursive;
+    font-weight: 100;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    font-family: 'Asap';
+    font-weight: 100;
+    font-style: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #A09EAC;
+}
+
+h4 {
+    font-family: "Asap";
+    font-weight: 100;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#landing-page {
+    background: url(images/bg.jpg) no-repeat center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    position: relative;
+}
+
+#logo {
+    float:left;
+    margin: 20px 200px 0 30px;
+}
+
+#nav {
+    text-align: justify;
+    min-width: 500px;
+}
+
+#nav:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+#nav li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#nav a {
+    font-family: 'Asap', serif;    
+    font-size: 16px;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#tagline {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+#button {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+
+#button a {
+    font-family: "StylishCalligraphyDemo";    
+    font-size: 35px;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#haapari {
+    background: white 1600px 1300px;
+    padding: 50px 0 50px 0;
+}
+    
+button {
+    background: 260px 90px #A09EAC;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "StylishCalligraphyDemo";
+    font-weight: 100;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+}
+
+#counter {
+    margin: 0px auto;
+    padding: 10px 0 50px 0;
+    width: 640px;
+    text-align: left;
+}
+
+#counter-wrapper {
+    background-image: radial-gradient(
+        circle,
+        #D7D6E3,
+        #A09EAC
+    );
+    height: 270px;
+    padding-top: 30px;
+}
+
+.number {
+    font-family: 'Asap';
+    font-size: 45px;
+    color: #000000;
+    letter-spacing: 0px;
+    margin-left: 70px;
+}
+
+.time {
+    font-family: 'StylishCalligraphyDemo';
+    font-size: 30px;
+    color: black;
+    letter-spacing: 0px;
+}
+
+#footer {
+    background-image: radial-gradient(
+        circle,
+        #AFBED1,
+        #F7D6C2
+    );
+    height: 150px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-left-bot {
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.black {
+    color: black;
+}
+
+.black-bottom {
+    color: black;
+    font-size: 46px;
+    padding-bottom: 25px;
+}
+
+.black-left {
+    color: black;
+    text-align: left;
+}
+
+.black-right {
+    color: black;
+    text-align: right;
+}
+
+.green {
+    color: #A09EAC;
+    padding: 50px 0 50px 0;
+}
+
+.green1 {
+    color: #A09EAC;
+    text-align: left;
+}
+
+.green2 {
+    color: #A09EAC;
+    text-align: right;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.pad-bottom {
+    margin-bottom: 50px;
+}
+
+.marg-bottom {
+    margin-bottom: 150px;
+}
