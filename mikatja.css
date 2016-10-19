@@ -1,6 +1,6 @@
 body {
     font-family: 'Asap';
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 0.2px;
     line-height: 35px;
     text-align: center;
@@ -23,7 +23,7 @@ h1 {
 h2 {
     font-family: "StylishCalligraphyDemo", cursive;
     font-weight: 100;
-    font-size: 35px;
+    font-size: 40px;
     color: black;
     text-align: center;
     margin: 20px;
@@ -51,7 +51,7 @@ h4 {
     background: url(images/mikatja_bg_uusi.jpg) no-repeat center center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 700px;
+    min-height: 1000px;
     position: relative;
 }
 
@@ -88,12 +88,12 @@ h4 {
 
 #tagline {
     position: absolute;
-    top: 150px;
+    top: 250px;
 }
 
 #button {
     position: absolute;
-    top: 550px;
+    top: 450px;
 }
 
 #button a {
@@ -222,5 +222,5 @@ button {
 }
 
 .p-padding {
-  padding: 0 50px 0 50px;
+  padding: 0 80px 0 80px;
 }
