@@ -60,30 +60,59 @@ h4 {
     margin: 20px 200px 0 30px;
 }
 
-#nav {
-    text-align: justify;
-    min-width: 500px;
-}
-
 #nav:after {
     content: '';
     display: inline-block;
     width: 100%;
 }
 
-#nav li {
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 20px;
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-#nav a {
+ul.topnav li {float: left;}
+
+ul.topnav li a {
     font-family: 'Asap', serif;
+    display: inline-block;
     color: black;
-    font-size: 20px;
-    text-align: center;
-    margin: 0 20px 20px 20px;
+    text-align: justify;
+    margin: 20px 20px 0 100px;
     text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+ul.topnav li a:hover {color: white;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:1000px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
 }
 
 #tagline {
@@ -92,7 +121,7 @@ h4 {
 }
 
 #button {
-    position: absolute;
+    position: relative;
     top: 450px;
 }
 
@@ -172,6 +201,10 @@ button {
 .align-left-bot {
     text-align: left;
     padding-bottom: 50px;
+}
+
+.justify {
+  text-align: justify;
 }
 
 .black {

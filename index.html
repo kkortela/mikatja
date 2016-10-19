@@ -11,12 +11,13 @@
         <div class="container-fluid">
             <div id="landing-page">
                 <div id="header">
-                     <a id='logo' href=""><img src="images/LOGO.png" style="height: 32px;"></a>
-                <ul id="nav">
+                <ul class="topnav" id="myTopnav">
+                    <li><a id='logo' href=""><img src="images/LOGO.png" style="height: 32px;"></a></li>
                     <li><a href="#haapari">HÄÄPARI</a></li>
                     <li><a href="#tapahtumapaikat">TAPAHTUMAPAIKAT</a></li>
                     <li><a href="#counter-wrapper">LASKURI</a></li>
-                    <li><a href="#kartta">KARTTA</a></li>
+                    <li><a href="#map-canvas">KARTTA</a></li>
+                    <li class="icon"><a href="javascript:void(0);" onclick="myFunction()"><img src="images/Hamppari.png" style="height: 32px;"></a></li>
                 </ul>
                 <div class="row">
                     <div id="tagline" class="col-xs-12">
@@ -50,16 +51,16 @@
             <div class="row marg-bottom">
                 <div class="col-xs-12 col-md-6 p-padding">
                     <h2 class="green1">Olipa kerran...</h2>
-                    <p>Olin aloittanut opintoni Teknillisessä Korkeakoulussa 2009, kun ensimmäisen kerran tapasin Mikan. Hän opiskeli toista vuottaan TKK:lla puunjalostusta ja oli sinä vuonna Isona. Muistan kehuneeni hänen hienoa Paul Smithin laukkua ja pidin häntä hassuna (mikä ei ole muuttunut). Kunnolla tutustuimme vasta Rukalla saman vuoden talvena Skipolin Ensilumi- reissulla. Tunsin siellä jo outoa vetoa Mikaan. Yhtenä iltana hengailimme porukassa huoneessamme laskupäivän jälkeen rennoissa merkeissä, mutta osa oli lähdössä Pisteeseen, Mika mukaan lukien. Itse halusin jäädä omien ystävieni kanssa huoneeseen, mutten halunnut jostain syystä Mikan lähtevän, joten nappasin hänen kenkänsä.</p>
-                    <button style="button">JATKA LUKEMISTA</button>
+                    <p class="justify">Olin aloittanut opintoni Teknillisessä Korkeakoulussa 2009, kun ensimmäisen kerran tapasin Mikan. Hän opiskeli toista vuottaan TKK:lla puunjalostusta ja oli sinä vuonna Isona. Muistan kehuneeni hänen hienoa Paul Smithin laukkua ja pidin häntä hassuna (mikä ei ole muuttunut). Kunnolla tutustuimme vasta Rukalla saman vuoden talvena Skipolin Ensilumi- reissulla. Tunsin siellä jo outoa vetoa Mikaan. Yhtenä iltana hengailimme porukassa huoneessamme laskupäivän jälkeen rennoissa merkeissä, mutta osa oli lähdössä Pisteeseen, Mika mukaan lukien. Itse halusin jäädä omien ystävieni kanssa huoneeseen, mutten halunnut jostain syystä Mikan lähtevän, joten nappasin hänen kenkänsä.</p>
+                    <button style="button" class="pad-bottom">JATKA LUKEMISTA</button>
                 </div>
                 <div class="col-xs-12 col-md-6 p-padding">
                     <h2 class="green2">...jos toisenkin</h2>
-                    <p>Olin aloittanut opintoni Teknillisessä Korkeakoulussa 2009, kun ensimmäisen kerran tapasin Mikan. Hän opiskeli toista vuottaan TKK:lla puunjalostusta ja oli sinä vuonna Isona. Muistan kehuneeni hänen hienoa Paul Smithin laukkua ja pidin häntä hassuna (mikä ei ole muuttunut). Kunnolla tutustuimme vasta Rukalla saman vuoden talvena Skipolin Ensilumi- reissulla. Tunsin siellä jo outoa vetoa Mikaan. Yhtenä iltana hengailimme porukassa huoneessamme laskupäivän jälkeen rennoissa merkeissä, mutta osa oli lähdössä Pisteeseen, Mika mukaan lukien. Itse halusin jäädä omien ystävieni kanssa huoneeseen, mutten halunnut jostain syystä Mikan lähtevän, joten nappasin hänen kenkänsä.</p>
+                    <p class="justify">Olin aloittanut opintoni Teknillisessä Korkeakoulussa 2009, kun ensimmäisen kerran tapasin Mikan. Hän opiskeli toista vuottaan TKK:lla puunjalostusta ja oli sinä vuonna Isona. Muistan kehuneeni hänen hienoa Paul Smithin laukkua ja pidin häntä hassuna (mikä ei ole muuttunut). Kunnolla tutustuimme vasta Rukalla saman vuoden talvena Skipolin Ensilumi- reissulla. Tunsin siellä jo outoa vetoa Mikaan. Yhtenä iltana hengailimme porukassa huoneessamme laskupäivän jälkeen rennoissa merkeissä, mutta osa oli lähdössä Pisteeseen, Mika mukaan lukien. Itse halusin jäädä omien ystävieni kanssa huoneeseen, mutten halunnut jostain syystä Mikan lähtevän, joten nappasin hänen kenkänsä.</p>
                     <button style="button">JATKA LUKEMISTA</button>
                 </div>
             </div>
-            <div class="row marg-bottom">
+            <div id="tapahtumapaikat" class="row marg-bottom">
                 <div class="col-xs-12 col-md-4">
                     <h1 class="green">Vihkiminen</h1>
                     <img src="images/Tuomiokirrko.png" width="400px" class="pad-bottom">
@@ -89,9 +90,7 @@
                 <h1 class="black-bottom">Laskuri</h1>
                 <div id="counter"></div>
             </div>
-            <div id="map-canvas" class="pad-bottom">
-
-            </div>
+            <div id="map-canvas" class="pad-bottom"></div>
             <div class="row">
                 <div class="col-xs-4">
                     <h4>TUOMIOKIRKKO</h4>
@@ -112,21 +111,21 @@
             </div>
             <div id="footer" class="row">
                 <div class="col-xs-12 col-md-3">
-                    <p class="align-left">YHTEYSTIEDOT</p>
+                    <p class="align-left pad-bottom">YHTEYSTIEDOT</p>
                 </div>
                 <div class="ccol-xs-6 col-md-3">
                     <p class="align-left">Katja Kortelainen</p>
                     <p class="align-left">050 321 1100</p>
-                    <p class="align-left">katja.l.kortelainen@gmail.com</p>
+                    <p class="align-left pad-bottom">katja.l.kortelainen@gmail.com</p>
                 </div>
                 <div class="col-xs-6 col-md-3">
                     <p class="align-left">Mika Väisänen</p>
                     <p class="align-left">050 599 0623</p>
-                    <p class="align-left">mika.a.vaisanen@gmail.com</p>
+                    <p class="align-left pad-bottom">mika.a.vaisanen@gmail.com</p>
                 </div>
                 <div class="col-xs-12 col-md-3">
                     <p class="align-left">Vuorikatu 22 C 53</p>
-                    <p class="align-left">000100 Helsinki</p>
+                    <p class="align-left">00100 Helsinki</p>
                 </div>
             </div>
         </div>
@@ -134,5 +133,6 @@
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
         <script src="laskuri.js"></script>
         <script src="kartta.js"></script>
+        <script src="nav.js"></script>
     </body>
 </html>
