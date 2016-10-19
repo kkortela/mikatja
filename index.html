@@ -89,18 +89,22 @@
                 <h2 class="black-bottom">Laskuri</h2>
                 <div id="counter"></div>
             </div>
-            <script src="laskuri.js"></script>
-            <div id="kartta" class="pad-bottom">
-                <img src="images/Kartta.png">
+
+            <div id="map-canvas" class="pad-bottom">
+
             </div>
             <div class="row">
-                <div class="col-xs-6">
-                    <h4 class="align-left">TUOMIOKIRKKO</h4>
-                    <p class="align-left-bot">Kirkkokatu 18, Helsinki</p>
+                <div class="col-xs-4">
+                    <h4>TUOMIOKIRKKO</h4>
+                    <p>Kirkkokatu 18, Helsinki</p>
                 </div>
-                <div class="col-xs-6">
-                    <h4 class="align-left">VALKOSAAREN TELAKKA</h4>
-                    <p class="align-left-bot">Valkosaari, Helsinki</p>
+                <div class="col-xs-4">
+                    <h4>VALKOSAAREN TELAKKA</h4>
+                    <p>Valkosaari, Helsinki</p>
+                </div>
+                <div class="col-xs-4">
+                    <h4>RANTASAUNA</h4>
+                    <p class="marg-bottom">Vastaranta 1, Espoo</p>
                 </div>
             </div>
             <div id="ilmo">
@@ -127,7 +131,9 @@
                 </div>
             </div>
         </div>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
-
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script> -->
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script src="laskuri.js"></script>
+        <script src="kartta.js"></script>
     </body>
 </html>

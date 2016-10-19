@@ -6,6 +6,10 @@ body {
     text-align: center;
 }
 
+#map-canvas {
+        height: 1000px;
+      }
+
 h1 {
     font-family : 'StylishCalligraphyDemo', cursive;
     font-weight: 100;
