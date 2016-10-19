@@ -162,7 +162,7 @@ button {
         #AFBED1,
         #F7D6C2
     );
-    height: 150px;
+    min-height: 150px;
 }
 
 .align-left {
@@ -180,7 +180,6 @@ button {
 
 .black-bottom {
     color: black;
-    font-size: 46px;
     padding-bottom: 25px;
 }
 
@@ -222,5 +221,5 @@ button {
 }
 
 .p-padding {
-  padding: 0 80px 0 80px;
+  padding: 0 50px 0 50px;
 }
