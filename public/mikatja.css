@@ -60,6 +60,10 @@ h4 {
     position: relative;
 }
 
+.container-fluid {
+  padding: 0;
+}
+
 #logo {
     float:left;
     margin: 20px 100px 0 30px;
