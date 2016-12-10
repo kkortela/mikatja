@@ -185,8 +185,18 @@ ul.topnav li.icon {display: none;}
 }
 
 #map-canvas {
-        height: 800px;
+    height: 800px;
       }
+
+#ilmo {
+  background-image: radial-gradient(
+      circle,
+      white,
+      #fedeaf
+  );
+    padding-top: 20px;
+    box-shadow: 0 0.0625em 0.25em 0 rgba(0,0,0,0.75);
+}
 
 #footer {
     background-image: radial-gradient(
