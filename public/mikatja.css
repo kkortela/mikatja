@@ -22,7 +22,6 @@ h1 {
     font-size: 3.75em;
     color: black;
     text-align: center;
-    margin: 1.25em 0 0.75em 0;
 }
 
 h2 {
@@ -35,32 +34,29 @@ h2 {
 
 h3 {
     font-family: 'Asap';
-    font-weight: 100;
     font-style: bold;
-    font-size: 24px;
+    font-size: 1.5em;
     text-align: center;
-    padding-bottom: 20px;
     color: #A095BA;
 }
 
 h4 {
-    font-family: "Asap";
-    font-weight: 100;
+    font-family: 'Asap';
     color: black;
-    font-size: 20px;
+    font-size: 1.25em;
     text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 #landing-page {
     background: url(images/mikatja_bg_uusi.jpg) no-repeat center center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 1000px;
+    min-height: 45em;
     position: relative;
-}
-
-.container-fluid {
-  padding: 0;
 }
 
 #logo {
@@ -76,6 +72,7 @@ h4 {
 
 #map-canvas {
         height: 800px;
+        padding: 0 2em 0 2em;
       }
 
 ul.topnav {
@@ -95,7 +92,7 @@ ul.topnav li a {
     margin: 20px 20px 0 100px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 ul.topnav li a:hover {color: white;}
@@ -129,12 +126,12 @@ ul.topnav li.icon {display: none;}
 
 #tagline {
     position: absolute;
-    top: 250px;
+    top: 14em;
 }
 
 #button {
-    position: relative;
-    top: 450px;
+    position: absolute;
+    top: 32em;
 }
 
 #button a {
