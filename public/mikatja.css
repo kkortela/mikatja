@@ -45,6 +45,7 @@ h4 {
     color: black;
     font-size: 1.25em;
     text-align: center;
+    line-height: 1.7em;
 }
 
 button {
@@ -235,8 +236,4 @@ ul.topnav li.icon {display: none;}
 
 .marg-bottom-100 {
     margin-bottom: 100px;
-}
-
-.marg-left {
-    margin-left: 10px;
 }
