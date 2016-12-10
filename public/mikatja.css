@@ -1,3 +1,12 @@
+@@font-face {
+  font-family: 'StylishCalligraphyDemo';
+  src: url('fonts/StylishCalligraphyDemo.eot');
+  src: url('fonts/StylishCalligraphyDemo.eot?#iefix') format('embedded-opentype'),
+       url('fonts/StylishCalligraphyDemo.woff') format('woff'),
+       url('fonts/StylishCalligraphyDemo.ttf') format('truetype'),
+       url('fonts/StylishCalligraphyDemo.svg#svgFontName') format('svg');
+}
+
 body {
     font-family: 'Asap';
     font-size: 18px;
