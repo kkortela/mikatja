@@ -34,7 +34,7 @@ h2 {
 
 h3 {
     font-family: 'Asap';
-    font-style: bold;
+    font-weight: bold;
     font-size: 1.5em;
     text-align: center;
     color: #A095BA;
@@ -62,6 +62,7 @@ button {
     background: 12.5em 5em #A095BA;
     border: none;
     color: white;
+    font-weight: bold;
     padding: 0.7em 0.8em;
     text-align: center;
     text-decoration: none;
