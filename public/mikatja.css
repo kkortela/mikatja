@@ -98,7 +98,7 @@ ul.topnav li a:hover {color: white;}
 
 ul.topnav li.icon {display: none;}
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:65em) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
@@ -106,7 +106,7 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:65em) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -155,7 +155,7 @@ ul.topnav li.icon {display: none;}
         #A095BA
     );
     height: 16em;
-    padding: 2.5em 0 10em 0;
+    padding: 40px 0 160px 0;
 }
 
 .number {
@@ -174,7 +174,7 @@ ul.topnav li.icon {display: none;}
 }
 
 #map-canvas {
-    height: 800px;
+    height: 50em;
       }
 
 #ilmo {
@@ -183,17 +183,11 @@ ul.topnav li.icon {display: none;}
       white,
       #A095BA
   );
-    padding-top: 20px;
-    box-shadow: 0 0.0625em 0.25em 0 rgba(0,0,0,0.75);
+    padding-top: 1.25em;
 }
 
 #footer {
-    background-image: radial-gradient(
-        circle,
-        #AFBED1,
-        #F7D6C2
-    );
-    min-height: 150px;
+    min-height: 9.375em;
 }
 
 .align-left {
