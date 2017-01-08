@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Asap';
+    font-family: 'Open Sans';
     font-size: 20px;
     letter-spacing: 0.025em;
     line-height: 1.4em;
@@ -55,7 +55,6 @@ a {
 a:hover {
   color: #A095BA;
   text-decoration: none;
-  font-style: italic;
 }
 
 button {
@@ -186,7 +185,7 @@ ul.topnav li.icon {display: none;}
 }
 
 .number {
-    font-family: 'Asap';
+    font-family: 'Avenir';
     font-size: 2.8em;
     color: #000000;
     letter-spacing: 0em;
