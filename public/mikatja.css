@@ -204,17 +204,18 @@ ul.topnav li.icon {display: none;}
     height: 50em;
       }
 
-/*#ilmo {
+#ilmo {
   background-image: radial-gradient(
       circle,
       white,
       #A095BA
   );
     padding-top: 1.25em;
-}*/
+}
 
 #footer {
     min-height: 9.375em;
+
 }
 
 .align-left {
