@@ -19,14 +19,22 @@ function initializeClock(id, endtime){
   var clock = document.getElementById(id);
   var timeinterval = setInterval(function(){
     var t = getTimeRemaining(endtime);
-    clock.innerHTML = '<span class="number">' + t.days + '</span>' +
+  clock.innerHTML = '<div class="counter-item">' +
+                      '<span class="number">' + t.days + '</span>' +
                       '<span class="time">' + ' pvä' + '</span>' +
-                      '<span class="number">' + t.hours + '</span>' +
-                      '<span class="time">' + ' t' + '</span>' +
+                    '</div>' +
+                    '<div class="counter-item">' +
+                      '<span class="number">' + t.seconds + '</span>' +
+                      '<span class="time">' + ' s' + '</span>' +
+                    '</div>' +
+                    '<div class="counter-item">' +
                       '<span class="number">' + t.minutes + '</span>' +
                       '<span class="time">' + ' min' + '</span>' +
-                      '<span class="number">' + t.seconds + '</span>' +
-                      '<span class="time">' + ' s' + '</span>'
+                    '</div>' +
+                    '<div class="counter-item">' +
+                      '<span class="number">' + t.hours + '</span>' +
+                      '<span class="time">' + ' t' + '</span>' +
+                    '</div>'
     if(t.total<=0){
       clearInterval(timeinterval);
     }

@@ -170,8 +170,8 @@ ul.topnav li.icon {display: none;}
 #counter {
     margin: 0 auto;
     padding: 1em 0 3.125em 0;
-    width: 40em;
     text-align: left;
+    width: 85%;
 }
 
 #counter-wrapper {
@@ -184,12 +184,21 @@ ul.topnav li.icon {display: none;}
     padding: 40px 0 160px 0;
 }
 
+.counter-item {
+  width: 25%;
+  float: right;
+  align: center;
+}
+
+.counter-item:first-child {
+  float:left;
+}
+
 .number {
     font-family: 'Avenir';
     font-size: 2.8em;
     color: #000000;
     letter-spacing: 0em;
-    margin-left: 70px;
 }
 
 .time {
