@@ -266,3 +266,7 @@ ul.topnav li.icon {display: none;}
 .marg-bottom-100 {
     margin-bottom: 100px;
 }
+
+.row {
+  margin: 0;
+}
