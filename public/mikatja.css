@@ -271,11 +271,18 @@ ul.topnav li.icon {display: none;}
   margin: 0;
 }
 
+.round-img {
+  width: 350px;
+}
+
 @media (max-width: 575px) {
   body {
     font-size: 11px;
   }
   p {
     font-size: 14px;
+  }
+  .round-img {
+    width: 250px;
   }
 }
