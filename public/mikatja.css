@@ -196,7 +196,7 @@ ul.topnav li.icon {display: none;}
 
 .number {
     font-family: 'Avenir';
-    font-size: 2.8em;
+    font-size: 2.3em;
     color: #000000;
     letter-spacing: 0em;
 }
@@ -284,5 +284,14 @@ ul.topnav li.icon {display: none;}
   }
   .round-img {
     width: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .time {
+    font-size: 1.5em;
+  }
+  .number {
+    font-size: 2.1em;
   }
 }
