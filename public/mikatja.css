@@ -270,3 +270,12 @@ ul.topnav li.icon {display: none;}
 .row {
   margin: 0;
 }
+
+@media (max-width: 575px) {
+  body {
+    font-size: 11px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
