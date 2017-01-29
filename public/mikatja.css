@@ -187,7 +187,7 @@ ul.topnav li.icon {display: none;}
 .counter-item {
   width: 25%;
   float: right;
-  align: center;
+  text-align: center;
 }
 
 .counter-item:first-child {
