@@ -106,11 +106,63 @@
           </div>
           <div id="ilmo" class="row marg-bottom-50">
             <h1>Ilmoittautuminen</h1>
+            <p>Kaikkien, myös lasten ja avecien, tulee tehdä ilmoittautuminen</p>
             <form id="rsvp-form">
-              <input type="text" name="fullname" id="fullname" placeholder="Nimi" />
+              <div>
+                <label for="fullname">Nimi</label>
+                <input type="text" name="fullname" id="fullname" required />
+              </div>
+              <div>
+                <label for="email">Sähköposti</label>
+                <input type="text" name="email" id="email" />
+              </div>
+              <div>
+                <label for="avec">Avec</label>
+                <input type="text" name="avec" id="avec" />
+              </div>
+              <div>
+                <label for="allergy">Allergiat/Erityisruokavalio</label>
+                <input type="text" name="allergy" id="allergy" />
+              </div>
+              <div>
+                <label for="table">Pöytäseuruetoive</label>
+                <input type="text" name="table" id="table" />
+              </div>
+              <div class="radio-btn">
+                <label for="brunssi">Osallistun brunssille su 9.7.</label>
+                <div>
+                  <input type="radio" name="brunssi" id="" value="yes"><span>Kyllä</span>
+                </div>
+                <div>
+                  <input type="radio" name="brunssi" id="" value="no"><span>En</span>
+                </div>
+              </div>
+              <div class="radio-btn">
+                <label for="transport">Tarvitsen kuljetuksen kirkolta juhlapaikalle (kävey 1,5km)</label>
+                <div>
+                  <input type="radio" name="transport" id="" value="yes"><span>Kyllä</span>
+                </div>
+                <div>
+                  <input type="radio" name="transport" id="" value="no"><span>En</span>
+                </div>
+              </div>
+              <div class="radio-btn">
+                <label for="brunssi">Haluan esittää ohjelmanumeron</label>
+                <div>
+                  <input type="radio" name="ohjelma" id="" value="yes"><span>Kyllä, ohjelmanumeroni on (esim. puhe, musiikkiesitys)</span>
+                  <input type="text" name="ohjelma" id="ohjelma" />
+                </div>
+                <div>
+                  <input type="radio" name="brunssi" id="" value="no"><span>En</span>
+                </div>
+              </div>
+              <div>
+                <label for="requests">Muut erityistoiveet</label>
+                <input type="text" name="requests" id="requests" />
+              </div>
             </form>
-            <button id="rsvp-btn">Lähetä</button>
-            <h1>*</h1>
+            <p>Tarkistathan, että syöttämäsi tiedot ovat oikein!</p>
+            <button id="rsvp-btn">ILMOITTAUDU</button>
           </div>
           <!--<div class="row marg-bottom-50">
             <h1 class="marg-bottom-50">Majoittuminen</h1>
