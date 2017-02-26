@@ -66,7 +66,7 @@
               <h4>HELSINGIN TUOMIOKIRKKO |</h4>
               <h4>LA 8.7.2017 | KLO 14 |</h4>
               <h4 class="marg-bottom-50">KIRKKOKATU 18, HELSINKI</h4>
-              <p>Kulkeminen Tuomiokirkolta Valkosaareen tapahtuu jalan. Matkan pituus n. 1,5 km. Kulkureitiltä saa juomalippuja vastaan virvokkeita. Elämässään jo tarpeeksi kävelleille on kuljetus juhlapaikalle.</p>
+              <p>Kulkeminen Tuomiokirkolta Valkosaareen tapahtuu jalan. Matkan pituus n. 1,5 km. Kulkureitillä on juomatarjoilu. Elämässään jo tarpeeksi kävelleille on tarjolla kuljetus.</p>
             </div>
             <div class="col-xs-12 col-lg-4">
               <h1 class="purple">Juhlapaikka</h1>
@@ -104,10 +104,27 @@
               <p class="marg-bottom">Vastaranta 1, Espoo</p>
             </div>
           </div>
+          <div id="majoittuminen" class="row marg-bottom-50">
+            <h1 class="marg-bottom-50">Majoittuminen</h1>
+            <div class="col-xs-12 col-lg-6 align-right">
+              <img src="images/Hotelli.png" width="350px" class="marg-bottom-50">
+            </div>
+            <div class="col-xs-12 col-lg-6">
+              <p class="align-left">Kauempaa tuleville vieraille on varattu alustavasti huoneita <a href="https://www.sokoshotels.fi/fi/tietoa-meista/original">Original Sokos</a> hotellista (Kluuvikatu 8). Huoneet tulee varata viimeistään 20.6.2017. Kirjautuminen hotellihuoneisiin on klo 15 ja huoneen luovutus klo 12. Ilmoittakaa varauksen yhteydessä varauskoodi BMIKATJA.</p>
+              <h4 class="align-left">1 hh/yö   102e</h4>
+              <h4 class="align-left">2 hh/yö   117e</h4>
+              <h4 class="align-left">2+1 hh/yö 137e</h4>
+              <h4 class="align-left">Lisävuode 15e/hlö</h4>
+            </div>
+          </div>
           <div id="ilmo" class="row marg-bottom-50">
             <h1>Ilmoittautuminen</h1>
-            <p>Kaikkien, myös lasten ja avecien, tulee tehdä ilmoittautuminen</p>
+            <div id="submitted">
+              <p>Jee! Tervetuloa juhlimaan Katjan ja Mikan häitä :) Paina allaolevaa nappia, jos haluat ilmoittaa lisää vieraita.</p>
+              <button id="submit-another-btn">TEE UUSI ILMOITTAUTUMINEN</button>
+            </div>
             <form id="rsvp-form">
+              <p>Kaikkien, myös lasten ja avecien, tulee tehdä ilmoittautuminen</p>
               <div>
                 <label for="fullname">Nimi</label>
                 <input type="text" name="fullname" id="fullname" required />
@@ -131,52 +148,39 @@
               <div class="radio-btn">
                 <label for="brunssi">Osallistun brunssille su 9.7.</label>
                 <div>
-                  <input type="radio" name="brunssi" id="" value="yes"><span>Kyllä</span>
+                  <input type="radio" name="brunssi" id="brunssi" value="yes"><span>Kyllä</span>
                 </div>
                 <div>
-                  <input type="radio" name="brunssi" id="" value="no"><span>En</span>
-                </div>
-              </div>
-              <div class="radio-btn">
-                <label for="transport">Tarvitsen kuljetuksen kirkolta juhlapaikalle (kävey 1,5km)</label>
-                <div>
-                  <input type="radio" name="transport" id="" value="yes"><span>Kyllä</span>
-                </div>
-                <div>
-                  <input type="radio" name="transport" id="" value="no"><span>En</span>
+                  <input type="radio" name="brunssi" value="no"><span>En</span>
                 </div>
               </div>
               <div class="radio-btn">
-                <label for="brunssi">Haluan esittää ohjelmanumeron</label>
+                <label for="transport">Tarvitsen kuljetuksen kirkolta juhlapaikalle (siirtyminen muuten kävellen 1,5km)</label>
                 <div>
-                  <input type="radio" name="ohjelma" id="" value="yes"><span>Kyllä, ohjelmanumeroni on (esim. puhe, musiikkiesitys)</span>
-                  <input type="text" name="ohjelma" id="ohjelma" />
+                  <input type="radio" name="transport" id="transport" value="yes"><span>Kyllä</span>
                 </div>
                 <div>
-                  <input type="radio" name="brunssi" id="" value="no"><span>En</span>
+                  <input type="radio" name="transport" value="no"><span>En</span>
+                </div>
+              </div>
+              <div class="radio-btn">
+                <label for="ohjelma">Haluan esittää ohjelmanumeron</label>
+                <div>
+                  <input type="radio" name="ohjelma" id="ohjelma" value="yes"><span>Kyllä, ohjelmanumeroni on (esim. puhe, musiikkiesitys)</span>
+                  <input type="text" name="ohjelma" id="ohjelmakuvaus" />
+                </div>
+                <div>
+                  <input type="radio" name="ohjelma" value="no"><span>En</span>
                 </div>
               </div>
               <div>
                 <label for="requests">Muut erityistoiveet</label>
                 <input type="text" name="requests" id="requests" />
               </div>
+              <p>Tarkistathan, että syöttämäsi tiedot ovat oikein!</p>
+              <button type="button" id="rsvp-btn">ILMOITTAUDU</button>
+            </div>
             </form>
-            <p>Tarkistathan, että syöttämäsi tiedot ovat oikein!</p>
-            <button id="rsvp-btn">ILMOITTAUDU</button>
-          </div>
-          <!--<div class="row marg-bottom-50">
-            <h1 class="marg-bottom-50">Majoittuminen</h1>
-            <div class="col-xs-12 col-lg-6 align-right">
-              <img src="images/Hotelli.png" width="450px" class="marg-bottom-50">
-            </div>
-            <div class="col-xs-12 col-lg-6">
-              <p class="align-left">Kauempaa tuleville vieraille on varattu alustavasti huoneita <a href="https://www.sokoshotels.fi/fi/tietoa-meista/original">Original Sokos</a> hotellista. Huoneet tulee varata viimeistään 8.6.2017. Lisäinfoa tulee sitten keväämmällä :)</p>
-              <h4 class="align-left">1 hh/yö   102e</h4>
-              <h4 class="align-left">2 hh/yö   117e</h4>
-              <h4 class="align-left">2+1 hh/yö 117e</h4>
-              <h4 class="align-left">Lisävuode 15e/hlö</h4>
-            </div>
-          </div>-->
           <div id="footer" class="row">
             <div class="col-md-6 col-lg-3">
               <p class="align-left marg-bottom-25">YHTEYSTIEDOT</p>

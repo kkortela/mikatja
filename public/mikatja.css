@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Open Sans';
+    font-family: 'Asap';
     font-size: 18px;
     letter-spacing: 0.025em;
     line-height: 1.4em;
@@ -336,6 +336,20 @@ input[type="radio"] {
 
 #rsvp-btn {
   margin: 30px 0 50px 0;
+  display: inline-block;
+}
+
+#majoittuminen {
+  margin-top: 50px;
+}
+
+#submitted {
+  display: none;
+  margin-bottom: 50px;
+}
+
+#submitted-btn {
+  margin-top: 30px;
 }
 
 span {
