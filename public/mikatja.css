@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Open Sans';
+    font-family: 'Asap';
     font-size: 18px;
     letter-spacing: 0.025em;
     line-height: 1.4em;
@@ -68,8 +68,8 @@ button {
     font-size: 1.5em;
     font-family: 'Asap';
     font-weight: 100;
-    border-radius: 0.3125em;
-    box-shadow: 0 0.0625em 0.25em 0 rgba(0,0,0,0.75);
+    border-radius: 0.2em;
+    box-shadow: 0 0.0625em 0.25em 0 rgba(0,0,0,0.5);
 }
 
 button:hover {
@@ -222,8 +222,8 @@ ul.topnav li.icon {display: none;}
 }
 
 #footer {
-    min-height: 9.375em;
-
+  margin-top: 30px;
+  min-height: 9.375em;
 }
 
 .align-left {
@@ -294,4 +294,64 @@ ul.topnav li.icon {display: none;}
   .number {
     font-size: 2.1em;
   }
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  width: 620px;
+  border: none;
+  background-color: rgba(255,255,255,0.5);
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin: 0;
+  font-size: 16px;
+}
+
+#rsvp-form div {
+  margin: 0 auto;
+  text-align: left;
+  width: 620px;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  opacity: 1;
+  margin-bottom: 10px!important;
+}
+
+.radio-btn {
+  margin-bottom: 30px!important;
+}
+
+#ohjelma {
+  margin-bottom: 10px;
+}
+
+#rsvp-btn {
+  margin: 30px 0 50px 0;
+  display: inline-block;
+}
+
+#majoittuminen {
+  margin-top: 50px;
+}
+
+#submitted {
+  display: none;
+  margin-bottom: 50px;
+}
+
+#submitted-btn {
+  margin-top: 30px;
+}
+
+span {
+  font-size: 16px;
 }
