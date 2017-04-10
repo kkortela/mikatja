@@ -6,6 +6,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="mikatja.css">
       <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
       <script src="//d2wy8f7a9ursnm.cloudfront.net/bugsnag-3.min.js"
       data-apikey="e05d250fbfa51164b1a2620e0eecc0d1"></script>
@@ -17,6 +18,7 @@
             <li><a id='logo' href=""><img src="images/LOGO.png" style="height: 28px;"></a></li>
             <li><a href="#haapari">HÄÄPARI</a></li>
             <li><a href="#tapahtumapaikat">TAPAHTUMAPAIKAT</a></li>
+            <li><a href="#info">HÄÄINFO</a></li>
             <li><a href="#counter-wrapper">LASKURI</a></li>
             <li><a href="#map-canvas">KARTTA</a></li>
             <li class="icon"><a href="javascript:void(0);" onclick="myFunction()"><img src="images/Hamppari.png" style="height: 28px;"></a></li>
@@ -60,29 +62,29 @@
             </div>
           </div>
           <div id="tapahtumapaikat" class="row marg-bottom-50">
-            <div class="col-xs-12 col-lg-4">
+            <div class="col-md-12 col-xl-4">
               <h1 class="purple">Vihkiminen</h1>
               <img src="images/Tuomiokirrko.png" class="marg-bottom-50 round-img">
               <h4>HELSINGIN TUOMIOKIRKKO |</h4>
               <h4>LA 8.7.2017 | KLO 14 |</h4>
               <h4 class="marg-bottom-50">KIRKKOKATU 18, HELSINKI</h4>
-              <p>Kulkeminen Tuomiokirkolta Valkosaareen tapahtuu jalan. Matkan pituus n. 1,5 km. Kulkureitillä on juomatarjoilu. Elämässään jo tarpeeksi kävelleille on tarjolla kuljetus.</p>
+              <p>Kirkolta lauttakuljetukselle on matkaa n. 1,5km. He, jotka haluavat jaloitella, saavat reippailla lautalle, mutta mataklle järjestetään myös kuljetus. Suosittelemme myös saapumaan kirkolle julkisilla, mikäli mahdollista. Jos kuitenkin tulet autolla, löytyy Tuomiokirkon läheisyydestä maksullisia paikkoja.</p>
             </div>
-            <div class="col-xs-12 col-lg-4">
+            <div class="col-md-12 col-xl-4">
               <h1 class="purple">Juhlapaikka</h1>
               <img src="images/Valkosaari.png" class="marg-bottom-50 round-img">
               <h4>VALKOSAAREN TELAKKA |</h4>
               <h4>LA 8.7.2017 | KLO 16 |</h4>
               <h4 class="marg-bottom-50">VALKOSAARI, HELSINKI</h4>
-              <p>Valkosaaren telakalle kuljetaan lautalla NJK:n laiturista (Olympiaterminaalin takana). Lauttamatka kestää n. 5 minuuttia. Otathan huomioon, että telakan lattia on epätasainen, kun valitset kenkiä. Varaathan mukaasi varmuuden vuoksi myös lämmintä vaatetta.</p>
+              <p>Valkosaaren telakalle kuljetaan lautalla NJK:n laiturista (Olympiaterminaalin takana). Lauttamatka kestää n. 5 minuuttia. Otathan huomioon, että telakan lattia on epätasainen, kun valitset kenkiä. Ja varaa myös mukaasi varmuudeksi lämmintä vaatetta, Suomen kesä kun on arvaamaton.</p>
             </div>
-            <div class="col-xs-12 col-lg-4">
+            <div class="col-md-12 col-xl-4">
               <h1 class="purple">Brunssi</h1>
               <img src="images/Brunssi.png" class="marg-bottom-50 round-img">
               <h4>OTANIEMEN RANTASAUNA |</h4>
-              <h4>SU 9.7.2017 | KLO 13 |</h4>
+              <h4>SU 9.7.2017 | KLO 12 |</h4>
               <h4 class="marg-bottom-50">VASTARANTA, OTANIEMI</h4>
-              <p>Juhlahumun jälkeisiä tunnelmia lievittämään järjestämme sunnuntaina brunssin Otaniemen Rantasaunalla. Sauna ja palju ovat kuumana ja juomat kylmiä. Otathan mukaasi uima-asun ja pyyhkeen. Parhaiten paikalle pääsee bussilla 102 ja 102T (päätepysäkille) tai taksilla/Überillä osoitteeseen Jämeräntaival 5, Otaniemi.</p>
+              <p class="marg-bottom-50">Juhlahumun jälkeisiä tunnelmia lievittämään järjestämme sunnuntaina brunssin Otaniemen Rantasaunalla. Sauna ja palju ovat kuumana ja juomat kylmiä. Otathan mukaasi uima-asun ja pyyhkeen, jos haluat saunoa. Parhaiten paikalle pääsee bussilla 102 ja 102T (päätepysäkille) tai taksilla/Überillä osoitteeseen Jämeräntaival 5, Otaniemi.</p>
             </div>
           </div>
           <div id="counter-wrapper">
@@ -104,22 +106,39 @@
               <p class="marg-bottom">Vastaranta 1, Espoo</p>
             </div>
           </div>
-          <div id="majoittuminen" class="row marg-bottom-50">
-            <h1 class="marg-bottom-50">Majoittuminen</h1>
-            <div class="col-xs-12 col-lg-6">
-              <img src="images/Hotelli.png" class="round-img marg-bottom-50">
+          <div id="info" class="row marg-bottom-50">
+            <div class="col-lg-12 col-xl-4">
+              <h1 class="purple">Majoitus</h1>
+              <img src="images/Hotelli.png" class="marg-bottom-50 round-img">
+              <h4>ORGINAL SOKOS HOTEL HELSINKI</h4>
+              <p>Kauempaa tuleville vieraille on varattu alustavasti huoneita <a target="_blank" href="https://www.sokoshotels.fi/fi/tietoa-meista/original">Original Sokos</a> hotellista (Kluuvikatu 8). Huoneet tulee varata viimeistään 20.6.2017. Kirjautuminen hotellihuoneisiin on klo 15 ja huoneen luovutus klo 12. Ilmoittakaa varauksen yhteydessä varauskoodi BMIKATJA. Huom! Varauskoodi toimii ainoastaan tekemällä varauksen puhelimitse tai sähköpostitse.</p>
+              <h4>1 hh/yö   102e</h4>
+              <h4>2 hh/yö   117e</h4>
+              <h4>2+1 hh/yö 137e</h4>
+              <h4 class="marg-bottom-50">Lisävuode 15e/hlö</h4>
             </div>
-            <div class="col-xs-12 col-lg-6 marg-bottom-50">
-              <p class="align-left">Kauempaa tuleville vieraille on varattu alustavasti huoneita <a href="https://www.sokoshotels.fi/fi/tietoa-meista/original">Original Sokos</a> hotellista (Kluuvikatu 8). Huoneet tulee varata viimeistään 20.6.2017. Kirjautuminen hotellihuoneisiin on klo 15 ja huoneen luovutus klo 12. Ilmoittakaa varauksen yhteydessä varauskoodi BMIKATJA.</p>
-              <h4 class="align-left">1 hh/yö   102e</h4>
-              <h4 class="align-left">2 hh/yö   117e</h4>
-              <h4 class="align-left">2+1 hh/yö 137e</h4>
-              <h4 class="align-left">Lisävuode 15e/hlö</h4>
+            <div class="col-lg-12 col-xl-4">
+              <h1 class="purple">Pukukoodi</h1>
+              <img src="images/Lehmät.png" class="marg-bottom-50 round-img">
+              <h4>KESÄISEN JUHLAVA</h4>
+              <p>Tumma puku, festive attire, informal, black tie, mut sit ei kuitenkaan ihan musta, ota näistä nyt selvä :) Henri Laaksosen sanoin "parempaa seppälää". Kyseessä kuitenkin kesähäät, niin ei tarvitse ottaa liian vakavasti. Jättäisin kuitenkin sen eläinasun brunssille ;)</p>
+            </div>
+            <div class="col-lg-12 col-xl-4">
+              <h1 class="purple">Häälahja</h1>
+              <img src="images/Loma.png" class="marg-bottom-50 round-img">
+              <h4>MATKAKASSA</h4>
+              <p>Kotimme on jo täynnä tavaraa, enemmän kaipaamme maailmaa avaraa. Siis matkalle mielemme halajaa, lahjoituksen häämatkarahastoon antaa saa.</p>
+              <h4>FI 22 1470 3500 7208 29</h4>
+              <p class="marg-bottom-50">Ja jotta homma ei menisi ihan persoonattomaksi, viestikenttään voitte laittaa käyttöohjeen lahjoitukselle :)</p>
             </div>
           </div>
           <div id="ilmo" class="row marg-bottom-50">
             <h1>Ilmoittautuminen</h1>
-            <div id="submitted">
+            <p>Kiitos paljon kaikille ilmoittautuneille! Jos muutoksia ilmoittautumiseen tulee, niin olkaa suoraan yhteydessä allekirjoittaneisiin.</p>
+            <p>Listan ja dataa ilmoittautuneista löydät <a target="_blank" href="https://docs.google.com/spreadsheets/d/1BkFIW2xiOMYbjy5JZTSzGl6zFKnM-wzS3IZMNXrUO8Y/edit#gid=0">täältä</a>.</p>
+            <h1>*</h1>
+          </div>
+            <!--<div id="submitted">
               <p>Jee! Tervetuloa juhlimaan Katjan ja Mikan häitä :) Paina allaolevaa nappia, jos haluat ilmoittaa lisää vieraita.</p>
               <button id="submit-another-btn">TEE UUSI ILMOITTAUTUMINEN</button>
             </div>
@@ -180,7 +199,7 @@
               <p>Tarkistathan, että syöttämäsi tiedot ovat oikein!</p>
               <button type="button" id="rsvp-btn">ILMOITTAUDU</button>
             </div>
-            </form>
+          </form>-->
           <div id="footer" class="row">
             <div class="col-md-6 col-lg-3">
               <p class="align-left marg-bottom-25">YHTEYSTIEDOT</p>
